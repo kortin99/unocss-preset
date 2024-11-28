@@ -1,7 +1,7 @@
 {
   "name": "@kortin/unocss-preset",
   "type": "module",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Useful preset for UnoCSS",
   "author": "kortin.zhou <kortin1999@outlook.com>",
   "access": "public",
@@ -41,7 +41,8 @@
   ],
   "scripts": {
     "build": "unbuild",
-    "stub": "unbuild --stub"
+    "stub": "unbuild --stub",
+    "prepublishOnly": "npm run build"
   },
   "dependencies": {
     "unbuild": "^2.0.0",
