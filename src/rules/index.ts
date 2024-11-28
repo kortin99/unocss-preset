@@ -1,7 +1,9 @@
-import { center } from './center'
+import center from './center'
+import flex from './flex'
 
 export const rules = [
-  ...center
+  ...center,
+  ...flex,
 ]
 
 export default rules

@@ -1,6 +1,6 @@
-import type { CSSEntries, Rule, RuleContext } from '@unocss/core';
+import type { Rule } from '@unocss/core';
 
-export const center: Rule[] = [
+export const flex: Rule[] = [
   [
     'flex-between',
     {
@@ -34,3 +34,5 @@ export const center: Rule[] = [
     },
   ],
 ];
+
+export default flex;
