@@ -1,0 +1,51 @@
+{
+  "name": "@kortin/unocss-preset",
+  "type": "module",
+  "version": "0.0.1",
+  "description": "Useful preset for UnoCSS",
+  "author": "kortin.zhou <kortin1999@outlook.com>",
+  "access": "public",
+  "license": "MIT",
+  "homepage": "https://github.com/kortin99/unocss-preset#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kortin99/unocss-preset/issues"
+  },
+  "bugs": {
+    "url": "https://github.com/kortin99/unocss-preset/issues"
+  },
+  "keywords": [
+    "unocss",
+    "unocss-preset",
+    "kortin"
+  ],
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.mts",
+      "default": "./dist/index.mjs"
+    },
+    "./rules": {
+      "types": "./dist/rules.d.mts",
+      "default": "./dist/rules.mjs"
+    },
+    "./*": "./*"
+  },
+  "main": "dist/index.mjs",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "*.css",
+    "*.d.ts",
+    "dist"
+  ],
+  "scripts": {
+    "build": "unbuild",
+    "stub": "unbuild --stub"
+  },
+  "dependencies": {
+    "unbuild": "^2.0.0",
+    "@unocss/core": "^0.64.1"
+  },
+  "devDependencies": {}
+}
