@@ -1,7 +1,7 @@
 {
   "name": "@kortin/unocss-preset",
   "type": "module",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Useful preset for UnoCSS",
   "author": "kortin.zhou <kortin1999@outlook.com>",
   "access": "public",
