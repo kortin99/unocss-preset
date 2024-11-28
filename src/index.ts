@@ -10,7 +10,7 @@ export interface PresetOptions {
   // to be defined
 }
 
-export const preset = definePreset((_options: PresetOptions) => {
+export default definePreset((_options: PresetOptions) => {
 
   return {
     name: '@kortin/unocss-preset',
