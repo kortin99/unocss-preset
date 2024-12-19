@@ -1,4 +1,4 @@
-# @unocss/preset-wind
+# @kortin/unocss-preset
 
 Useful preset for [UnoCSS](https://github.com/unocss/unocss).
 
