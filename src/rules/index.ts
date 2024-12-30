@@ -1,9 +1,9 @@
-import center from './center'
-import flex from './flex'
+import border from './border'
+import grid from './grid'
 
 export const rules = [
-  ...center,
-  ...flex,
+  ...border,
+  ...grid,
 ]
 
 export default rules
