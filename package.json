@@ -1,8 +1,8 @@
 {
   "name": "@kortin/unocss-preset",
   "type": "module",
-  "version": "0.0.4",
-  "description": "Useful preset for UnoCSS",
+  "version": "0.0.5",
+  "description": "Useful preset for UnoCSS to avoid non-essential classes",
   "author": "kortin.zhou <kortin1999@outlook.com>",
   "access": "public",
   "license": "MIT",
@@ -17,7 +17,9 @@
   "keywords": [
     "unocss",
     "unocss-preset",
-    "kortin"
+    "kortin",
+    "unocss-shortcuts",
+    "unocss-rules"
   ],
   "sideEffects": false,
   "exports": {
@@ -42,11 +44,14 @@
   "scripts": {
     "build": "unbuild",
     "stub": "unbuild --stub",
-    "prepublishOnly": "npm run build"
+    "prepublishOnly": "npm run build",
+    "release": "npm run build && bumpp && npm run publish"
   },
   "dependencies": {
-    "unbuild": "^2.0.0",
-    "@unocss/core": "^0.64.1"
+    "@unocss/core": "^0.64.1",
+    "unbuild": "^2.0.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "bumpp": "^9.9.2"
+  }
 }
