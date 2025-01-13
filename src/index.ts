@@ -1,7 +1,8 @@
 import { Preset } from '@unocss/core'
 import { rules } from './rules/index'
+import { shortcuts } from './shortcuts/index'
 
-export { rules }
+export { rules, shortcuts }
 
 /**
  * @public
